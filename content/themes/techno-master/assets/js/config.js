@@ -1,34 +1,29 @@
-window.techno.config = { 
-	
-		logo: '[YOUR LOGO]',
-		author: {			
+window.techno.config = {
+
+		logo: 'fa-soccer-ball-o',
+		author: {
 				social: [
-					{ 
-						href: 'https://github.com/[YOUR ACCOUNT]',
+					{
+						href: 'https://github.com/ericbenson',
 					  icon: 'fa-github',
 						title: 'Github'
 					},
-					{ 
-						href: 'https://twitter.com/[YOUR ACCOUNT]',
+					{
+						href: 'https://twitter.com/',
 					  icon: 'fa-twitter',
 						title: 'Twitter'
 					},
-					{ 
-						href: 'https://linkedin.com/[YOUR ACCOUNT]',
+					{
+						href: 'https://linkedin.com/in/ericnbenson',
 					  icon: 'fa-linkedin',
 						title: 'LinkedIn'
 					},
-					{ 
-						href: 'mailto:[YOUR EMAIL]',
+					{
+						href: 'mailto:eric.n.benson@gmail.com',
 					  icon: 'fa-envelope',
 						title: 'Email'
-					},
-					{ 
-						href: techno.baseUrl + '/rss/',
-					  icon: 'fa-rss',
-						title: 'Rss'
 					}
-				]
+			]
 		},
 		disqus: {
 				shortname: '[YOUR DISQUS SHORTNAME]'
@@ -50,4 +45,3 @@ window.techno.config = {
 				{ route: techno.baseUrl + '/projects', text: 'Projects'}
 		]
 };
-	
