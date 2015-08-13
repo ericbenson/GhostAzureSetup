@@ -1,6 +1,6 @@
 window.techno.config = {
 
-		logo: window.location.href+'assets/images/icon.png',
+		logo: window.techno.baseUrl+'assets/images/icon.png',
 		author: {
 				social: [
 					{
@@ -40,8 +40,8 @@ window.techno.config = {
 		},
 
 		menu: [
-				{ route: '', text: 'Home'},
-				{ route: techno.baseUrl + '/about', text: 'About'},
-				{ route: techno.baseUrl + '/projects', text: 'Projects'}
+				{ route: '', text: 'Home'}
+				// { route: techno.baseUrl + '/about', text: 'About'},
+				// { route: techno.baseUrl + '/projects', text: 'Projects'}
 		]
 };
