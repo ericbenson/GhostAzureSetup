@@ -1,6 +1,6 @@
 window.techno.config = {
 
-		logo: window.techno.baseUrl+'assets/images/icon.png',
+		logo: window.techno.baseUrl+'/assets/images/icon.png',
 		author: {
 				social: [
 					{
