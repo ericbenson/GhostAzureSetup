@@ -1,6 +1,6 @@
 window.techno.config = {
 
-		logo: 'fa-soccer-ball-o',
+		logo: 'icon.png',
 		author: {
 				social: [
 					{
